@@ -19,7 +19,6 @@ const Home = () => {
     };
     getTrending();
   }, []);
-  console.log(location);
 
   return (
     <Container>
