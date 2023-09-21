@@ -30,8 +30,6 @@ const MovieDetails = () => {
     getDetails();
   }, [movieId]);
 
-  console.log(location);
-
   return (
     <Container>
       <Link to={location.state?.from ?? '/movies'}>
